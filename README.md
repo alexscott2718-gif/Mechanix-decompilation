@@ -80,4 +80,5 @@ Coordinates use **big-endian** IEEE 754 floats. Game units are approximately 1 c
 ## Compatibility
 
 I've tested it on Hot Wheels: Mechanix (2001, Windows) `.omt` assets.
-May work with other OpenMediaToolkit 2.0.0 SDK games.
+May work with other OpenMediaToolkit 2.0.0 SDK games, tho I'm unsure. Test it out and let me know.
+thankiess ^W^
