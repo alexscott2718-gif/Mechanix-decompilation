@@ -1,6 +1,6 @@
 # OMedia OMT Editor + Blender Tools
 
-Demo release for **Hot Wheels: Mechanix** (1998) OMT asset files.
+Demo release for **Hot Wheels: Mechanix** (2001) OMT asset files.
 
 ## Files
 
@@ -13,7 +13,7 @@ Demo release for **Hot Wheels: Mechanix** (1998) OMT asset files.
 
 ## omf2_editor.py
 
-A Python/Tkinter editor for OMedia Formatted Stream (`.omt`) files — the asset container used by Mechanix and other OMedia-engine games.
+A Python/Tkinter editor for OMedia Formatted Stream (`.omt`) files — the asset container used by Mechanix and other OpenMediaToolkit games.
 
 **Requirements:** Python 3.8+, Tkinter (usually bundled with Python), Pillow (`pip install pillow`)
 
@@ -79,5 +79,5 @@ Coordinates use **big-endian** IEEE 754 floats. Game units are approximately 1 c
 
 ## Compatibility
 
-Tested against Hot Wheels: Mechanix (1998, Windows) `.omt` assets.
-May work with other OMedia 2.5 SDK games.
+I've tested it on Hot Wheels: Mechanix (2001, Windows) `.omt` assets.
+May work with other OpenMediaToolkit 2.0.0 SDK games.
