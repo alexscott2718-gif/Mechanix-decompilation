@@ -31,7 +31,13 @@ gitea.unixnight.com/UnixNight/Neutron `docs/gam-format.md`; none of that repo's 
 
 - All 100 retail JN `.omt` files open in the editor, and a save with no edits reproduces them.
 - Move an entity, save, reload: the new position is kept.
-- **Not tested in game.** No edited `.gam` has been loaded by the original game yet.
+- **Tested in the original game (NeutronSW.exe, 2026-11-23).** In `level1b.gam` (Jimmy's lab), Jimmy's start was
+  moved from (5071.9, 26.7, 824.1) to (4308, 26.7, 1300); 12 bytes of the file changed. A new game then spawned Jimmy at
+  (4308.5, 76.4, 1300.0), read from the running game's memory.
+  - A new game starts Jimmy at the `STRT` entity tagged `STARTEXP`. The `3JIM` entity sits at the same spot in the
+    retail file, so both were moved; moving `STARTEXP` alone hasn't been tested.
+  - The game sets Jimmy about 50 units above the `.gam` height, onto the floor.
+  - The retail `.gam` files install read-only. Clear that before copying an edited file over one.
 
 ## Notes
 
